@@ -11,7 +11,7 @@ C++ Serving采用[brpc框架](https://github.com/apache/incubator-brpc)进行Cli
 C++ Serving的核心执行引擎是一个有向无环图(也称作[DAG图](./DAG_CN.md))，DAG图中的每个节点(在PaddleServing中,借用模型中operator算子的概念，将DAG图中的节点也称为[OP](./OP_CN.md))代表预估服务的一个环节，DAG图支持多个OP按照串并联的方式进行组合，从而实现在一个服务中完成多个模型的预测整合最终产出结果。整个框架原理如下图所示，可分为Client Side 和 Server Side。
 <p align="center">
     <br>
-<img src='../images/design_doc.png'">
+<img src='../images/design_doc.png' />
     <br>
 <p>
 
@@ -53,7 +53,7 @@ Server端的核心是一个由项目代码编译产生的名称为serving的二�
 
 <p align="center">
     <br>
-<img src='../images/multi_model.png'>
+<img src='../images/multi_model.png' />
     <br>
 <p>
 

@@ -23,6 +23,7 @@ Paddle Serving 已实现9个类别，共计46个模型的服务化部署示例�
 **一.图像分类与识别**
 
 模型部署示例请参阅下表：
+
 | 场景| 模型 | 类型 | 示例使用的框架 | 下载 |
 | --- | --- | --- | --- | ---- |
 | 图像识别 |pp_shitu | PaddleClas | [C++ Serving](../examples/C++/PaddleClas/pp_shitu) | [.tar.gz](https://paddle-imagenet-models-name.bj.bcebos.com/dygraph/rec/models/inference/serving/pp_shitu.tar.gz) |
@@ -47,6 +48,7 @@ Paddle Serving 已实现9个类别，共计46个模型的服务化部署示例�
 **二.文本类**
 
 模型部署示例请参阅下表：
+
 | 场景| 模型 | 类型 | 示例使用的框架 | 下载 |
 | --- | --- | --- | --- | ---- |
 | 文本生成 | bert_chinese_L-12_H-768_A-12 | PaddleNLP | [C++ Serving](../examples/C++/PaddleNLP/bert)</br>[Pipeline Serving](../examples/Pipeline/PaddleNLP/bert) | [.tar.gz](https://paddle-serving.bj.bcebos.com/paddle_hub_models/text/SemanticModel/bert_chinese_L-12_H-768_A-12.tar.gz) |
@@ -62,6 +64,7 @@ Paddle Serving 已实现9个类别，共计46个模型的服务化部署示例�
 **三.推荐系统**
 
 模型部署示例请参阅下表：
+
 | 场景| 模型 | 类型 | 示例使用的框架 | 下载 |
 | --- | --- | --- | --- | ---- |
 | CTR预估 | criteo_ctr | PaddleRec | [C++ Serving](../examples/C++/PaddleRec/criteo_ctr) | [.tar.gz](https://paddle-serving.bj.bcebos.com/criteo_ctr_example/criteo_ctr_demo_model.tar.gz) |
@@ -74,6 +77,7 @@ Paddle Serving 已实现9个类别，共计46个模型的服务化部署示例�
 **四.人脸识别**
 
 模型部署示例请参阅下表：
+
 | 场景| 模型 | 类型 | 示例使用的框架 | 下载 |
 | --- | --- | --- | --- | ---- |
 | 人脸识别|blazeface | PaddleDetection | [C++ Serving](../examples/C++/PaddleDetection/blazeface) | [.tar.gz](https://paddle-serving.bj.bcebos.com/paddle_hub_models/image/ObjectDetection/blazeface.tar.gz) |C++ Serving|
@@ -84,6 +88,7 @@ Paddle Serving 已实现9个类别，共计46个模型的服务化部署示例�
 **五.目标检测**
 
 模型部署示例请参阅下表：
+
 | 场景| 模型 | 类型 | 示例使用的框架 | 下载 |
 | --- | --- | --- | --- | ---- |
 | 目标检测 |cascade_mask_rcnn_r50_vd_fpn_ssld_2x_coco | PaddleDetection | [C++ Serving](../examples/C++/PaddleDetection/cascade_rcnn) | [.tar.gz](https://paddle-serving.bj.bcebos.com/pddet_demo/cascade_mask_rcnn_r50_vd_fpn_ssld_2x_coco_serving.tar.gz) |
@@ -103,6 +108,7 @@ Paddle Serving 已实现9个类别，共计46个模型的服务化部署示例�
 **六.文字识别**
 
 模型部署示例请参阅下表：
+
 | 场景| 模型 | 类型 | 示例使用的框架 | 下载 |
 | --- | --- | --- | --- | ---- |
 | 文字识别 |ocr_rec | PaddleOCR | [C++ Serving](../examples/C++/PaddleOCR/ocr)</br>[Pipeline Serving](../examples/Pipeline/PaddleOCR/ocr) | [.tar.gz](https://paddle-serving.bj.bcebos.com/paddle_hub_models/image/OCR/ocr_rec.tar.gz) |
@@ -120,6 +126,7 @@ Paddle Serving 已实现9个类别，共计46个模型的服务化部署示例�
 **七.图像分割**
 
 模型部署示例请参阅下表：
+
 | 场景| 模型 | 类型 | 示例使用的框架 | 下载 |
 | --- | --- | --- | --- | ---- |
 | 图像分割 | deeplabv3 | PaddleSeg | [C++ Serving](../examples/C++/PaddleSeg/deeplabv3) | [.tar.gz](https://paddle-serving.bj.bcebos.com/paddle_hub_models/image/ImageSegmentation/deeplabv3.tar.gz) |
@@ -131,6 +138,7 @@ Paddle Serving 已实现9个类别，共计46个模型的服务化部署示例�
 **八.关键点检测**
 
 模型部署示例请参阅下表：
+
 | 场景| 模型 | 类型 | 示例使用的框架 | 下载 |
 | --- | --- | --- | --- | ---- |
 | 关键点检测 |faster_rcnn_hrnetv2p_w18_1x | PaddleDetection | [C++ Serving](../examples/C++/PaddleDetection/faster_rcnn_hrnetv2p_w18_1x) | [.tar.gz](https://paddle-serving.bj.bcebos.com/pddet_demo/faster_rcnn_hrnetv2p_w18_1x.tar.gz) |
@@ -141,6 +149,7 @@ Paddle Serving 已实现9个类别，共计46个模型的服务化部署示例�
 **九.视频理解**
 
 模型部署示例请参阅下表：
+
 | 场景| 模型 | 类型 | 示例使用的框架 | 下载 |
 | --- | --- | --- | --- | ---- |
 | 视频理解 |PPTSN_K400 | PaddleVideo | [Pipeline Serving](../examples/Pipeline/PaddleVideo/PPTSN_K400) | [model](https://paddle-serving.bj.bcebos.com/model/PaddleVideo/PPTSN_K400.tar) |

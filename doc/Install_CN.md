@@ -119,7 +119,7 @@ bash Serving/tools/paddle_env_install.sh
 安装所需的pip依赖
 ```
 cd Serving
-pip3 install -r python/requirements.txt
+pip3 install -r python/requirements.txt -i https://mirror.baidu.com/pypi/simple
 ```
 
 安装服务whl包，共有3种client、app、server，Server分为CPU和GPU，GPU包根据您的环境选择一种安装

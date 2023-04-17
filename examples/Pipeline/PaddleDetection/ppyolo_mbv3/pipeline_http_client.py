@@ -15,7 +15,6 @@
 import numpy as np
 import requests
 import json
-import cv2
 import base64
 import os
 
@@ -24,7 +23,7 @@ def cv2_to_base64(image):
     return base64.b64encode(image).decode('utf8')
 
 
-url = "http://127.0.0.1:18082/ppyolo_mbv3/prediction"
+url = "http://192.168.0.6:18082/ppyolo_mbv3/prediction"
 with open(os.path.join(".", "000000570688.jpg"), 'rb') as file:
     image_data1 = file.read()
 image = cv2_to_base64(image_data1)
